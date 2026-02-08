@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="AI agent automations built for real work. Book a call to discuss your workflow and we’ll design an automation plan." />
+  <title>Agent Automations | Book a Call</title>
+
+  <link rel="stylesheet" href="assets/styles.css" />
+
+  <!-- Basic social preview -->
+  <meta property="og:title" content="Agent Automations" />
+  <meta property="og:description" content="AI agent automations built for real work. Book a call." />
+  <meta property="og:type" content="website" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-row">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">◎</div>
+        <div class="brand-text">
+          <div class="brand-name">Agent Automations</div>
+          <div class="brand-tag">AI agents that run your workflows</div>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#how">How it works</a>
+        <a href="#services">Services</a>
+        <a href="#faq">FAQ</a>
+        <button class="btn btn-primary" id="openBookingTop" type="button">
+          Book a call
+        </button>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="mobileNav">
+        <span class="sr-only">Open menu</span>
+        ☰
+      </button>
+    </div>
+
+    <div class="mobile-nav container" id="mobileNav" hidden>
+      <a href="#how">How it works</a>
+      <a href="#services">Services</a>
+      <a href="#faq">FAQ</a>
+      <button class="btn btn-primary" id="openBookingMobile" type="button">Book a call</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Automate the busywork with AI agents your team can trust.</h1>
+          <p class="lead">
+            We design practical agent automations for ops, reporting, CRM, customer support, and internal workflows —
+            with clear guardrails, auditability, and measurable ROI.
+          </p>
+
+          <div class="hero-cta">
+            <button class="btn btn-primary btn-lg" id="openBookingHero" type="button">Book a 20-min call</button>
+            <a class="btn btn-ghost btn-lg" href="#how">See how it works</a>
+          </div>
+
+          <div class="hero-proof">
+            <div class="pill">⚡ Reduce manual tasks</div>
+            <div class="pill">🔒 Safer agent design</div>
+            <div class="pill">📈 Measurable outcomes</div>
+          </div>
+        </div>
+
+        <div class="hero-card" role="region" aria-label="Example automation">
+          <div class="card">
+            <div class="card-title">Example: “Campaign Watchdog” Agent</div>
+            <ul class="checklist">
+              <li>Monitors campaign performance daily</li>
+              <li>Flags anomalies and likely causes</li>
+              <li>Posts a summary to Slack + next steps</li>
+              <li>Creates a Jira ticket when action is needed</li>
+            </ul>
+            <div class="card-footer">
+              <span class="muted">Want one like this?</span>
+              <button class="btn btn-primary" id="openBookingCard" type="button">Book a call</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="section" id="how">
+      <div class="container">
+        <h2>How it works</h2>
+        <p class="muted maxw">
+          A lightweight process designed to ship real automations quickly — without chaos.
+        </p>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">1</div>
+            <h3>Discovery</h3>
+            <p>We map your workflow, inputs/outputs, and “what could go wrong”.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <h3>Design</h3>
+            <p>We define tools, permissions, guardrails, and success metrics.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <h3>Build + Test</h3>
+            <p>We implement the agent and test with real cases before rollout.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">4</div>
+            <h3>Launch</h3>
+            <p>We ship, monitor, and iterate — with documentation and handover.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section alt" id="services">
+      <div class="container">
+        <h2>Services</h2>
+
+        <div class="grid-3">
+          <div class="card soft">
+            <h3>Agent Audit</h3>
+            <p class="muted">Review an existing automation for safety, reliability, and ROI.</p>
+            <ul class="bullets">
+              <li>Threat/risk review</li>
+              <li>Prompt/tooling evaluation</li>
+              <li>Recommendations + roadmap</li>
+            </ul>
+          </div>
+
+          <div class="card soft">
+            <h3>Build an Automation</h3>
+            <p class="muted">We ship a working agent for one clear workflow.</p>
+            <ul class="bullets">
+              <li>Slack / Email / Dashboard workflows</li>
+              <li>Integrations: Sheets, Notion, Jira, HubSpot, etc.</li>
+              <li>Monitoring + logs</li>
+            </ul>
+          </div>
+
+          <div class="card soft">
+            <h3>Agent Playbook</h3>
+            <p class="muted">Train your team to build agents responsibly.</p>
+            <ul class="bullets">
+              <li>Patterns + guardrails</li>
+              <li>Templates + examples</li>
+              <li>Internal governance approach</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="cta-band">
+          <div>
+            <h3>Not sure what you need?</h3>
+            <p class="muted">Book a quick call and we’ll recommend the simplest high-impact starting point.</p>
+          </div>
+          <button class="btn btn-primary btn-lg" id="openBookingServices" type="button">Book a call</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container">
+        <h2>FAQ</h2>
+
+        <div class="faq">
+          <details>
+            <summary>What do you mean by “AI agent automation”?</summary>
+            <p>
+              A workflow where an AI system can take actions (not just chat) — for example fetching data, writing a report,
+              updating a ticket, or sending a message — with permissions and guardrails.
+            </p>
+          </details>
+
+          <details>
+            <summary>Can this be done with sensitive company data?</summary>
+            <p>
+              Yes, with the right setup. We design around least-privilege access, logging, redaction, and safe tool usage.
+              We’ll advise on options depending on your environment and risk tolerance.
+            </p>
+          </details>
+
+          <details>
+            <summary>What’s a good first automation?</summary>
+            <p>
+              Usually: recurring reporting, KPI anomaly detection, triaging inbound requests, or “ops assistant”
+              workflows that save hours weekly without touching critical systems.
+            </p>
+          </details>
+
+          <details>
+            <summary>How fast can we launch?</summary>
+            <p>
+              A simple single-workflow agent can often be shipped quickly once requirements and access are clear.
+              We’ll give you a timeline after the discovery call.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand small">
+            <div class="logo" aria-hidden="true">◎</div>
+            <div class="brand-text">
+              <div class="brand-name">Agent Automations</div>
+              <div class="brand-tag">Practical AI for real work</div>
+            </div>
+          </div>
+          <p class="muted">© <span id="year"></span> Agent Automations. All rights reserved.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#how">How it works</a>
+          <a href="#services">Services</a>
+          <a href="#faq">FAQ</a>
+          <button class="btn btn-ghost" id="openBookingFooter" type="button">Book a call</button>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Booking Modal -->
+  <div class="modal" id="bookingModal" role="dialog" aria-modal="true" aria-labelledby="bookingTitle" hidden>
+    <div class="modal-backdrop" data-close="true"></div>
+
+    <div class="modal-panel" role="document">
+      <div class="modal-header">
+        <h2 id="bookingTitle">Book a call</h2>
+        <button class="icon-btn" id="closeBooking" type="button" aria-label="Close booking dialog">✕</button>
+      </div>
+
+      <div class="modal-tabs" role="tablist" aria-label="Booking options">
+        <button class="tab active" role="tab" aria-selected="true" aria-controls="tab-calendly" id="tabBtnCalendly" type="button">
+          Calendar
+        </button>
+        <button class="tab" role="tab" aria-selected="false" aria-controls="tab-form" id="tabBtnForm" type="button">
+          Booking request
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Calendly Tab -->
+        <div id="tab-calendly" class="tab-panel" role="tabpanel" aria-labelledby="tabBtnCalendly">
+          <p class="muted">
+            Choose a slot that works for you. (Replace the Calendly URL in <code>index.html</code>.)
+          </p>
+
+          <!-- Calendly inline widget begin -->
+          <div class="calendly-inline-widget"
+               data-url="https://calendly.com/YOUR-CALENDLY-USERNAME/intro-call"
+               style="min-width:320px;height:640px;">
+          </div>
+          <script async src="https://assets.calendly.com/assets/external/widget.js"></script>
+          <!-- Calendly inline widget end -->
+
+          <p class="muted small">
+            If the calendar doesn’t load (ad blockers), use the “Booking request” tab instead.
+          </p>
+        </div>
+
+        <!-- Form Tab -->
+        <div id="tab-form" class="tab-panel" role="tabpanel" aria-labelledby="tabBtnForm" hidden>
+          <p class="muted">
+            Prefer to request a time? Send details and we’ll reply by email.
+            (Paste your Formspree endpoint in <code>index.html</code>.)
+          </p>
+
+          <form class="form" method="POST" action="https://formspree.io/f/YOUR_FORM_ID">
+            <label>
+              Name
+              <input name="name" type="text" autocomplete="name" required />
+            </label>
+
+            <label>
+              Email
+              <input name="email" type="email" autocomplete="email" required />
+            </label>
+
+            <label>
+              What do you want to automate?
+              <textarea name="message" rows="4" required placeholder="e.g. daily KPI summary to Slack, anomaly alerts, CRM follow-ups..."></textarea>
+            </label>
+
+            <label>
+              Your timezone
+              <input name="timezone" type="text" placeholder="e.g. Europe/Malta" />
+            </label>
+
+            <label>
+              Preferred times (optional)
+              <input name="preferred_times" type="text" placeholder="e.g. Tue 10–12 or Thu 15–17" />
+            </label>
+
+            <button class="btn btn-primary" type="submit">Send request</button>
+            <p class="muted small">
+              Tip: Formspree will show a confirmation screen by default. You can configure redirects in Formspree.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
